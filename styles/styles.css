@@ -47,6 +47,20 @@ input::placeholder {
     color: #1C2B32;
 }
 
+h2 {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+a {
+    color: #899CA0;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: unset;
+}
 
 
 
@@ -58,36 +72,46 @@ input::placeholder {
 
 /*///////////// 3.1 Header /////////////*/
 .header-page {
-    /* Hier gebleven met afbeelding op achtergrond plaatsen. Nog niet gelukt.
-    background-image: url("../images/mountains.jpg");*/
+    background-image: url("../assets/images/mountains.jpg");
     width: 1000px;
     text-align: center;
-    margin: 30px;
-    padding: 20px;
+    margin: 10px auto;
+    padding: 50px 20px 200px 20px;
+    background-size: cover;
+    background-position: 50% 33%;
 }
 .subtitle {
-    padding: 10px 0px 25px 0px;
+    padding: 10px 0 25px 0;
 }
 .input-domain {
     padding: 15px 15px 15px 25px;
-    border-radius: 50px 0px 0px 50px;
+    border-radius: 50px 0 0 50px;
     width: 250px;
     border: 1px solid #1C2B32;
+    background-color: transparent;
 }
 .button-check-availability {
     padding: 15px 25px 15px 25px;
-    border-radius: 0px 50px 50px 0px;
+    border-radius: 0 50px 50px 0;
     border: 1px solid #1C2B32;
 }
 
-
-
 /*///////////// 3.2 Testimonial /////////////*/
-
+.main-page {
+    width: 1000px;
+    margin: 10px auto;
+}
 
 
 /*///////////// 3.3 Support /////////////*/
-
+.image-callcenter {
+    border-radius: 50px;
+    width: 100%;
+    padding: 10px 190px;
+    overflow: hidden;
+/*    Hier gebleven. De afbeelding van de callcenter image moet weer rond worden. Lukt niet met px wel met percentages.*/
+}
+/*Daarna de button nog stylen zoals in het voorbeeld.*/
 
 
 /*///////////// 3.4 Faq /////////////*/
