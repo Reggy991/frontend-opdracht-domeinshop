@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -10,17 +12,41 @@ Table of Contents:
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
-
+/* Kleuren: grijs #899CA0 en donkergroen #1C2B32 */
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
-
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
 
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #1C2B32;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+button {
+    color: white;
+    background-color: #1C2B32;
+}
+
+input::placeholder {
+    color: #1C2B32;
+}
+
 
 
 
@@ -31,6 +57,28 @@ Table of Contents:
 
 
 /*///////////// 3.1 Header /////////////*/
+.header-page {
+    /* Hier gebleven met afbeelding op achtergrond plaatsen. Nog niet gelukt.
+    background-image: url("../images/mountains.jpg");*/
+    width: 1000px;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+}
+.subtitle {
+    padding: 10px 0px 25px 0px;
+}
+.input-domain {
+    padding: 15px 15px 15px 25px;
+    border-radius: 50px 0px 0px 50px;
+    width: 250px;
+    border: 1px solid #1C2B32;
+}
+.button-check-availability {
+    padding: 15px 25px 15px 25px;
+    border-radius: 0px 50px 50px 0px;
+    border: 1px solid #1C2B32;
+}
 
 
 
